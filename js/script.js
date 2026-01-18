@@ -124,5 +124,5 @@ arrowLeft.addEventListener('click',()=>{
 });
 
 function downloadCV(){
-    alert("This feature is not currently working.");
+    alert("This feature is not currently working. Coming soon..!");
 }
