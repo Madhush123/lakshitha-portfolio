@@ -23,6 +23,7 @@ html {
 
 body {
     color: var(--white-color);
+    overflow: hidden;
 }
 
 .p-name{
