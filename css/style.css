@@ -851,6 +851,7 @@ section.active {
         flex-direction: column-reverse;
         justify-content: center;
         gap: 2rem;
+        margin-top: 10rem;
         padding-top: 15rem;
     }
 
