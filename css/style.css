@@ -128,7 +128,7 @@ section {
     position: absolute;
     width: 100%;
     height: 100%;
-    padding: 10rem 9% 2rem;
+    padding: 15rem 9% 2rem;
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
@@ -328,6 +328,7 @@ section.active {
 .services-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    height: max-content;
     gap: 2rem;
 }
 
