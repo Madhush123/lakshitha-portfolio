@@ -23,8 +23,6 @@ html {
 
 body {
     color: var(--white-color);
-    background: var(--bg-color);
-    height: 100%;
 }
 
 .p-name{
@@ -135,8 +133,6 @@ section {
     overflow: hidden;
 }
 
-
-
 @keyframes show-content {
     100%{
         visibility: visible;
@@ -146,7 +142,7 @@ section {
 }
 
 section.active {
-   animation:show-content 1.5s linear forwards;
+    animation:show-content 1.5s linear forwards;
     animation-delay: 1.6s;
 }
 
@@ -630,9 +626,10 @@ section.active {
     margin-right: 1.5rem;
 }
 
-.portfolio-box .live-github a:first-child i{
+.portfolio-box .live-github a:first-child svg{
     transform: rotate(135deg);
 }
+
 
 .portfolio-box .live-github a span{
     position: absolute;
@@ -927,7 +924,6 @@ section.active {
     }
 
 }
-
 
 
 
