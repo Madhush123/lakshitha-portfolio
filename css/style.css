@@ -31,7 +31,7 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -822,14 +822,14 @@ section.active {
     #menu-icon{
         display: block;
     }
-/*    .home {
-        padding-top: 30rem; !* Increase top padding for mobile *!
+    .home {
+        padding-top: 30rem; /* Increase top padding for mobile */
     }
 
-    !* When nav is active (expanded), add more padding *!
+    /* When nav is active (expanded), add more padding */
     nav.active ~ .home {
         padding-top: 30rem;
-    }*/
+    }
     nav{
         position: absolute;
         top: 100%;
