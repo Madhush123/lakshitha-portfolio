@@ -822,12 +822,12 @@ section.active {
     #menu-icon{
         display: block;
     }
-    section {
+    .home {
         padding-top: 30rem; /* Increase top padding for mobile */
     }
 
     /* When nav is active (expanded), add more padding */
-    nav.active ~ section {
+    nav.active ~ .home {
         padding-top: 30rem;
     }
     nav{
