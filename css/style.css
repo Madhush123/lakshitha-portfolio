@@ -23,7 +23,6 @@ html {
 
 body {
     color: var(--white-color);
-    background: var(--bg-color);
 }
 
 .p-name{
@@ -845,6 +844,15 @@ section.active {
         margin: 4rem 0;
     }
 
+    section {
+        padding-top: 20rem; /* Increase top padding for mobile */
+    }
+
+    /* When nav is active (expanded), add more padding */
+    nav.active ~ section {
+        padding-top: 15rem;
+    }
+
     .home{
         flex-direction: column-reverse;
         justify-content: center;
@@ -891,6 +899,10 @@ section.active {
 @media screen and (max-width: 450px){
     html{
         font-size: 50%;
+    }
+
+    section {
+        padding-top: 13rem;
     }
 }
 
