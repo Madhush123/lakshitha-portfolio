@@ -43,7 +43,6 @@ header {
     z-index: 100;
     visibility: hidden;
     opacity: 0;
-    border: 1px solid red;
 }
 
 header.active{
